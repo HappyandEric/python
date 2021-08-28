@@ -1,8 +1,23 @@
-x = int(input("輸入英文成績>"))
-v = int(input("輸入數學成績>"))
-if x <90 and v <90:
-    print("受罰")
-elif x >90 and v >90:
-    print("獎勵")
-else:
-    print("加油")
+# coding:utf-8
+import random
+
+a = random.randint(1, 20)
+isok = False
+i=0
+while isok == False:
+    b=int(input("數字>"))
+    if i == 4:
+        print("again")
+        break
+    elif a == b:
+        print("good")
+        break
+    elif b>a:
+        print("小一點")
+        i=i+1
+    elif b<a:
+        print("大一點")
+        i=i+1
+
+    else:
+        isok = True
