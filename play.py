@@ -5,12 +5,14 @@ a = random.randint(1, 20)
 isok = False
 i=0
 while isok == False:
+    print(a)
     b=int(input("數字>"))
-    if i == 4:
-        print("again")
-        break
-    elif a == b:
+
+    if a == b:
         print("good")
+        break
+    elif i == 4:
+        print("again")
         break
     elif b>a:
         print("小一點")
