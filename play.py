@@ -7,7 +7,6 @@ print("""1號餐:吐司,40
 3號餐:apple,40
 4號餐:ice cream,65""")
 
-
 isok = False
 while isok == False:
         need=int(input("need?>"))
