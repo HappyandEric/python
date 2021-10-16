@@ -1,11 +1,11 @@
-a=["吐司,50"]
-b=["布丁,15"]
-c=["apple,40"]
-d=["ice cream,65"]
-print("""1號餐:吐司,40
-2號餐:布丁,15
-3號餐:apple,40
-4號餐:ice cream,65""")
+a=["吐司,50元"]
+b=["布丁,15元"]
+c=["apple,40元"]
+d=["ice cream,65元"]
+print("""1號餐:吐司,40元
+2號餐:布丁,15元
+3號餐:apple,40元
+4號餐:ice cream,65元""")
 
 isok = False
 while isok == False:
